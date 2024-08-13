@@ -2,15 +2,15 @@
 
 This is an example of an implementation of classes in Lua, a feature found in many object oriented languages like Java and C++, along with extensive commenting explaining what each snippet does.
 
-Lua has no native support for classes, but it's fairly simple to implement them using tables and their metamethod functionality (see the Links section below for more information.)
+Lua has no native support for classes, but it's fairly simple to implement them using metatables and their metamethod functionality (see the Links section below for more information.)
 
-This code is primarily a more throughly commented version of the code found [here](http://lua-users.org/wiki/ObjectOrientationTutorial).
+This code is primarily a more throughly commented version of the code found [here](http://lua-users.org/wiki/ObjectOrientationTutorial), with several examples added showing how to use the methods written for the created classes.
 
 ## Links
 
 [Wikipedia on classes](https://en.wikipedia.org/wiki/Class_%28computer_programming%29)
 
-[More about Lua's metamethods](http://lua-users.org/wiki/MetamethodsTutorial)
+[More about Lua's metatables and metamethods](http://lua-users.org/wiki/MetamethodsTutorial)
 
 [The primary reference for this code, showing how to use metamethods to create class-like behavior](http://lua-users.org/wiki/ObjectOrientationTutorial)
 
